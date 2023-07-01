@@ -1,11 +1,6 @@
-import { Manrope } from "next/font/google";
 import { HandPay } from "@/assets/illustrations";
 import { ProductCard } from "./productcard";
-
-const manrope = Manrope({
-	subsets: ["latin"],
-	weight: ["700"],
-});
+import { manrope } from "@/font";
 
 const products = [
 	{
