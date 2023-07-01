@@ -8,7 +8,7 @@ export const Partner = () => {
 			<h3
 				className={
 					manrope.className +
-					" text-center text-[39px] mb-[24px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-green"
+					" w-fit mx-auto text-[39px] mb-[24px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-green"
 				}
 			>
 				Our partners
