@@ -7,7 +7,7 @@ import { Play } from "@/assets/icons";
 export const Nav = () => {
 	return (
 		<div className="w-full h-[112px]">
-			<div className="w-[1110px] h-full mx-auto flex items-center justify-between">
+			<div className="max-w-[1110px] h-full mx-auto flex items-center justify-between">
 				<Image
 					src={Logo}
 					alt={"eclipse logo"}
