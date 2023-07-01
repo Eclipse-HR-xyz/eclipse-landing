@@ -11,7 +11,7 @@ export const Footer = () => {
 				<Image
 					src={Logo}
 					alt={"logo"}
-					className="object-contain -translate-x-16"
+					className="object-contain -translate-x-16 -translate-y-8"
 				/>
 				<div className="pt-[76px] pb-[83.5px] flex justify-between gap-[100px]">
 					{footercontent.map((el, i) => (
@@ -22,8 +22,7 @@ export const Footer = () => {
 									<Link
 										className={buttonVariants({
 											variant: "link",
-											className:
-												"px-0 py-0 text-background-milk text-base font-medium h-fit gap-[15px]",
+											size: "link",
 										})}
 										key={i}
 										href={link.link}

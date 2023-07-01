@@ -18,7 +18,7 @@ const buttonVariants = cva(
 				secondary:
 					"bg-secondary text-secondary-foreground hover:bg-secondary/80",
 				ghost: "hover:bg-accent hover:text-accent-foreground",
-				link: "text-primary underline-offset-4 hover:underline",
+				link: "text-background-milk text-base underline-offset-4 hover:underline",
 				gradient:
 					"bg-gradient-to-r from-primary to-primary-dark text-primary-foreground",
 			},
@@ -27,6 +27,7 @@ const buttonVariants = cva(
 				sm: "rounded-md px-8 py-4",
 				lg: "rounded-md px-11 py-4",
 				icon: "h-10 w-10",
+				link: "px-0 py-0  h-fit gap-[15px]",
 			},
 		},
 		defaultVariants: {
