@@ -4,3 +4,4 @@ export { Product } from "./product";
 export { Partner } from "./partners";
 export { Others } from "./others";
 export { Join } from "./join";
+export { Footer } from "./footer";

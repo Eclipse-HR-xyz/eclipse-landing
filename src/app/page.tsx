@@ -5,6 +5,7 @@ import {
 	Partner,
 	Others,
 	Join,
+	Footer,
 } from "@/components/features";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
 			<Partner />
 			<Others />
 			<Join />
+			<Footer />
 		</main>
 	);
 }
