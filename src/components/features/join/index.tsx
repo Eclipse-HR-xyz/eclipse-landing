@@ -8,7 +8,7 @@ export const Join = () => {
 				Join waitlist
 			</h4>
 			<form className="flex flex-col gap-[50px] items-center w-full">
-				<Input className="h-[100px] w-[960px] border-0 bg-[#96ABFB]/30 text-md px-[82px]" />
+				<Input className="h-[100px] max-w-[960px] border-0 bg-[#96ABFB]/30 text-md px-[82px]" />
 				<Button
 					variant={"default"}
 					size={"lg"}

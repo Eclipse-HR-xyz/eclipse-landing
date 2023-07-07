@@ -1,0 +1,21 @@
+<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="streamline:shopping-bag-hand-bag-1-shopping-bag-purse-goods-item-products" clip-path="url(#clip0_397_1728)">
+<g id="Group">
+<path id="Vector" d="M20.2239 23.7274H5.58391C5.10009 23.7304 4.62113 23.6309 4.17851 23.4355C3.73589 23.2401 3.33964 22.9532 3.0158 22.5938C2.69196 22.2343 2.44786 21.8104 2.29956 21.3499C2.15126 20.8893 2.10211 20.4026 2.15533 19.9217L3.30391 9.82457C3.35052 9.40334 3.55151 9.0143 3.86809 8.73255C4.18467 8.45079 4.5944 8.29629 5.01819 8.29886H20.7896C21.2134 8.29629 21.6231 8.45079 21.9397 8.73255C22.2563 9.0143 22.4573 9.40334 22.5039 9.82457L23.6182 19.9217C23.6711 20.3997 23.6228 20.8835 23.4766 21.3417C23.3303 21.7998 23.0893 22.2221 22.7692 22.581C22.449 22.9399 22.057 23.2275 21.6185 23.425C21.18 23.6225 20.7048 23.7255 20.2239 23.7274Z" stroke="url(#paint0_linear_397_1728)" stroke-width="2.31731" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M6.04688 8.29953C6.04688 6.4809 6.76932 4.73676 8.05529 3.45079C9.34125 2.16483 11.0854 1.44238 12.904 1.44238C14.7226 1.44238 16.4668 2.16483 17.7528 3.45079C19.0387 4.73676 19.7612 6.4809 19.7612 8.29953M8.6183 13.4424H17.1897" stroke="url(#paint1_linear_397_1728)" stroke-width="2.31731" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_397_1728" x1="0.838152" y1="8.29883" x2="28.0712" y2="12.117" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2D58F7"/>
+<stop offset="1" stop-color="#091231"/>
+</linearGradient>
+<linearGradient id="paint1_linear_397_1728" x1="5.22013" y1="1.44238" x2="22.6982" y2="3.45169" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2D58F7"/>
+<stop offset="1" stop-color="#091231"/>
+</linearGradient>
+<clipPath id="clip0_397_1728">
+<rect width="24" height="24" fill="white" transform="translate(0.903809 0.586914)"/>
+</clipPath>
+</defs>
+</svg>

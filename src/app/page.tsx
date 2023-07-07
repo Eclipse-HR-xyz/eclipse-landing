@@ -6,11 +6,12 @@ import {
 	Others,
 	Join,
 	Footer,
+	Leaves,
 } from "@/components/features";
 
 export default function Home() {
 	return (
-		<main>
+		<main className="relative">
 			<Nav />
 			<Hero />
 			<Product />
@@ -18,6 +19,7 @@ export default function Home() {
 			<Others />
 			<Join />
 			<Footer />
+			<Leaves />
 		</main>
 	);
 }

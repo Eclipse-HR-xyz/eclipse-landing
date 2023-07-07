@@ -5,8 +5,8 @@ import { HeroImage } from "@/assets/illustrations";
 
 export const Hero = () => {
 	return (
-		<div className="bg-background-milk">
-			<div className="max-w-[1110px] mx-auto relative">
+		<div className="overflow-hidden bg-background-milk">
+			<div className="max-w-[1110px] mx-auto relative px-4 lg:px-0 flex items-center">
 				<div className="max-w-[480px] py-[160px] flex flex-col gap-[50px]">
 					<div className="flex flex-col gap-[8px]">
 						<h1 className="text-[43px] font-semibold leading-normal">
@@ -38,7 +38,7 @@ export const Hero = () => {
 						</Button>
 					</div>
 				</div>
-				<div className="absolute top-0 -right-28">
+				<div className="">
 					<Image src={HeroImage} alt="you can do it" />
 				</div>
 			</div>
