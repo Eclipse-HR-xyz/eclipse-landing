@@ -6,7 +6,7 @@ export const Others = () => {
 	return (
 		<div className={`${manrope.className} border-t border-black/40 pb-28`}>
 			{sections.map((el, i) => (
-				<Section key={i} {...el} reverse={(i + 1) % 2 === 0} />
+				<Section key={i} {...el} reverse={(i + 1) % 2 === 1} />
 			))}
 		</div>
 	);

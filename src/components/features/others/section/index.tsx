@@ -25,13 +25,15 @@ export const Section = ({
 						"flex-row-reverse": reverse,
 					})}
 				>
-					<div className="max-w-[484px] flex flex-col">
-						<div className="flex gap-[30px] items-center p-[10px]">
-							<Image src={mainfeature.icon} alt={""} />
-							<h6 className="font-semibold text-[31px]">
-								{mainfeature.text}
-							</h6>
-						</div>
+					<div className="flex flex-col w-fit">
+						{mainfeature && (
+							<div className="flex gap-[30px] items-center p-[10px]">
+								<Image src={mainfeature.icon} alt={""} />
+								<h6 className="font-semibold text-[31px]">
+									{mainfeature.text}
+								</h6>
+							</div>
+						)}
 						<div className="flex flex-col gap-[24px] mt-[30px] ml-auto">
 							{bullet.map((el, i) => (
 								<div
@@ -39,7 +41,7 @@ export const Section = ({
 									className="p-[10px] flex gap-[10px] items-center"
 								>
 									<Image src={BulletCheck} alt="" />
-									<p className="text-[20px] capitalize text-black">
+									<p className="text-[20px] text-black">
 										{el}
 									</p>
 								</div>

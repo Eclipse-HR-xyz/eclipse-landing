@@ -7,6 +7,8 @@ import ClockIn from "./clockIn.png";
 import CVScan from "./cv scan.png";
 import Recruitment from "./recruitment.png";
 import TrackIdentity from "./track identity.png";
+import Blockchain from "./blockchain.png";
+import AiBrain from "./ai brain.png";
 
 export {
 	HeroImage,
@@ -18,4 +20,6 @@ export {
 	CVScan,
 	Recruitment,
 	TrackIdentity,
+	Blockchain,
+	AiBrain,
 };

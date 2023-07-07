@@ -1,11 +1,16 @@
-import { ReadFace, PressPhone, TrackApplicants } from "@/assets/illustrations";
+import {
+	ReadFace,
+	TrackApplicants,
+	Blockchain,
+	AiBrain,
+} from "@/assets/illustrations";
 import { GreenAI, GreenCheck, GreenComputer } from "@/assets/icons";
 import { StaticImageData } from "next/image";
 
 export interface ISection {
 	title: string;
 	image: StaticImageData;
-	mainfeature: {
+	mainfeature?: {
 		icon: StaticImageData;
 		text: string;
 	};
@@ -14,16 +19,32 @@ export interface ISection {
 
 export const sections: ISection[] = [
 	{
-		title: "Emotion Analysis",
-		image: ReadFace,
+		title: "Blockchain Infrastructure",
+		image: Blockchain,
+		bullet: [
+			"Transparent application interview session",
+			"Verify employee/talent Identify (Future of Employment ™)",
+			"Secured applicant data",
+		],
+	},
+	{
+		title: "AI infrastructure",
+		image: AiBrain,
 		mainfeature: {
 			icon: GreenAI,
-			text: "Latest AI/ML Emotion Recognition  Technology For Video",
+			text: "Latest AI/ML Emotion Recognition Technology",
 		},
 		bullet: [
-			"Get more data from recorded interviews",
-			"Get more data from recorded interviews",
-			"Get more data from recorded interviews",
+			"Make data driven decisions and choose the right candidate",
+			"Scan and score resumes with Eclipse CV scanner",
+		],
+	},
+	{
+		title: "Emotion Analysis",
+		image: ReadFace,
+		bullet: [
+			"Latest AI/ML emotion recognition technology",
+			"Know your applicant character",
 		],
 	},
 	{
@@ -34,35 +55,8 @@ export const sections: ISection[] = [
 			text: "Make data-driven decions",
 		},
 		bullet: [
-			"Get more data from recorded interviews",
-			"Get more data from recorded interviews",
-			"Get more data from recorded interviews",
-		],
-	},
-	{
-		title: "Job Schedule",
-		image: PressPhone,
-		mainfeature: {
-			icon: GreenComputer,
-			text: "Candidates can apply easily",
-		},
-		bullet: [
-			"Get more data from recorded interviews",
-			"Get more data from recorded interviews",
-			"Get more data from recorded interviews",
-		],
-	},
-	{
-		title: "Job Schedule",
-		image: PressPhone,
-		mainfeature: {
-			icon: GreenComputer,
-			text: "Candidates can apply easily",
-		},
-		bullet: [
-			"Get more data from recorded interviews",
-			"Get more data from recorded interviews",
-			"Get more data from recorded interviews",
+			"Post & receive job applications from multiple platforms",
+			"Schedule and monitor interview sessions and progress of Applicants",
 		],
 	},
 ];
