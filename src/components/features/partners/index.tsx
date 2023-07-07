@@ -4,7 +4,10 @@ import Image from "next/image";
 
 export const Partner = () => {
 	return (
-		<section id="partners" className="pb-20">
+		<section
+			id="partners"
+			className="pb-20 pt-[40px] border-t border-black/40"
+		>
 			<h3
 				className={`${manrope.className} w-fit mx-auto text-[39px] mb-[24px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-green`}
 			>

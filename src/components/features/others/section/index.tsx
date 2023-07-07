@@ -16,14 +16,17 @@ export const Section = ({
 }: sectionProps) => {
 	return (
 		<div className="pt-24 pb-[60px] border-b border-black/40">
-			<div className="max-w-[1110px] mx-auto flex flex-col gap-[60px]">
-				<h4 className="text-[39px] mx-auto font-semibold text-transparent w-fit bg-clip-text bg-gradient-to-r from-primary to-green">
+			<div className="max-w-[1110px] mx-auto flex flex-col gap-[60px] px-5 lg:px-0">
+				<h4 className="text-[39px] text-center mx-auto font-semibold text-transparent w-fit bg-clip-text bg-gradient-to-r from-primary to-green">
 					{title}
 				</h4>
 				<div
-					className={cn("flex items-center justify-between", {
-						"flex-row-reverse": reverse,
-					})}
+					className={cn(
+						"flex items-center gap-y-5 justify-between flex-col sm:flex-row",
+						{
+							"flex-col-reverse sm:flex-row-reverse": reverse,
+						}
+					)}
 				>
 					<div className="flex flex-col w-fit">
 						{mainfeature && (
@@ -48,7 +51,11 @@ export const Section = ({
 							))}
 						</div>
 					</div>
-					<Image src={image} alt={`${title}-image`} />
+					<Image
+						src={image}
+						alt={`${title}-image`}
+						className="shrink"
+					/>
 				</div>
 			</div>
 		</div>

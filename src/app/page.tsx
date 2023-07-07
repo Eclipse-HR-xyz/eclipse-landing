@@ -19,7 +19,7 @@ export default function Home() {
 			<Others />
 			<Join />
 			<Footer />
-			<Leaves />
+			{/* <Leaves /> */}
 		</main>
 	);
 }

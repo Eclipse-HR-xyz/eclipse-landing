@@ -6,8 +6,8 @@ import { HeroImage } from "@/assets/illustrations";
 export const Hero = () => {
 	return (
 		<div className="overflow-hidden bg-background-milk">
-			<div className="max-w-[1110px] mx-auto relative px-4 lg:px-0 flex items-center">
-				<div className="max-w-[480px] py-[160px] flex flex-col gap-[50px]">
+			<div className="max-w-[1110px] mx-auto relative px-5 lg:px-0 flex items-start mdm:items-center flex-col mdm:flex-row">
+				<div className="max-w-[480px] py-[18px] mdm:py-[160px] flex flex-col gap-[50px]">
 					<div className="flex flex-col gap-[8px]">
 						<h1 className="text-[43px] font-semibold leading-normal">
 							Experience Better Human Resource <br />
@@ -21,7 +21,7 @@ export const Hero = () => {
 							exceptional results.
 						</p>
 					</div>
-					<div className="flex gap-[10px]">
+					<div className="flex flex-col sm:flex-row gap-[10px]">
 						<Button
 							variant={"gradient"}
 							size={"lg"}
@@ -38,7 +38,7 @@ export const Hero = () => {
 						</Button>
 					</div>
 				</div>
-				<div className="">
+				<div className="self-center">
 					<Image src={HeroImage} alt="you can do it" />
 				</div>
 			</div>
