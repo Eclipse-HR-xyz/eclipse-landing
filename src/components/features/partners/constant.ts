@@ -1,4 +1,10 @@
-import { Binance, Polygon, Threshold, WemaBank } from "@/assets/partners";
+import {
+	Binance,
+	Polygon,
+	Threshold,
+	WemaBank,
+	Fantom,
+} from "@/assets/partners";
 
 export const partnerList = [
 	{
@@ -16,5 +22,9 @@ export const partnerList = [
 	{
 		src: WemaBank,
 		alt: "wema bank",
+	},
+	{
+		src: Fantom,
+		alt: "fantom",
 	},
 ];

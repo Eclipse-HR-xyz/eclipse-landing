@@ -22,7 +22,7 @@ export const ProductCard = ({ image, subtitle, title }: productCardProps) => {
 			</CardHeader>
 			<CardContent>
 				<CardTitle className="text-center">{title}</CardTitle>
-				<CardDescription className="text-[14px]">
+				<CardDescription className="text-[14px] text-center">
 					{subtitle}
 				</CardDescription>
 			</CardContent>

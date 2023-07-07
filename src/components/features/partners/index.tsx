@@ -13,7 +13,7 @@ export const Partner = () => {
 			>
 				Our partners
 			</h3>
-			<div className="flex justify-center gap-[50px] flex-wrap">
+			<div className="flex max-w-6xl mx-auto justify-center gap-[54px] flex-wrap">
 				{partnerList.map((el, i) => (
 					<Image
 						key={i}

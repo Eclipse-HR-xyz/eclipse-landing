@@ -1,14 +1,6 @@
-import { HandPay } from "@/assets/illustrations";
 import { ProductCard } from "./productcard";
 import { manrope } from "@/font";
-
-const products = [
-	{
-		image: HandPay,
-		title: "Payroll",
-		subtitle: "Automated payments in fiat and digital assets.",
-	},
-];
+import { products } from "./constants";
 
 export const Product = () => {
 	return (
@@ -21,7 +13,7 @@ export const Product = () => {
 			>
 				Product
 			</h3>
-			<div className="flex justify-center mt-24">
+			<div className="max-w-7xl mx-auto flex flex-wrap justify-center mt-24 gap-[54px]">
 				{products.map((el, i) => (
 					<ProductCard key={i} {...el} />
 				))}
